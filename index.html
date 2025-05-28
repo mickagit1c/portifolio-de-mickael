@@ -1,116 +1,74 @@
 <!DOCTYPE html>
-Mickael Valter da Silva Ribeiro 2D
 <html lang="pt-br">
+    Mickael Valter da Silva Riberio 2D
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Meu portfólio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+  <title>Meu portfólio</title>
 </head>
-
 <body>
-    <header class="container text-center">
-        <p class="lead">Eu sou Mickael</p>
-        <h1>Eu aprendo Programação</h1>
+  <header class="container text-center mt-4">
+    <p class="lead">Eu sou Mickael</p>
+    <h1>Eu aprendo Programação</h1>
 
-        <!-- Imagens 3D -->
-        <div class="d-flex justify-content-center gap-4 my-4 flex-wrap">
-            <img src="https://img.icons8.com/3d-fluency/240/boy.png" alt="Garoto 3D cacheado" class="img-fluid" style="max-height: 200px;">
-            <img src="https://img.icons8.com/3d-fluency/240/laptop.png" alt="Computador 3D" class="img-fluid" style="max-height: 200px;">
-        </div>
+    <!-- Foto de perfil -->
+    <img src="foto-perfil.jpg" alt="Foto de Perfil" class="rounded-circle my-3" style="width: 150px; height: 150px; object-fit: cover;"/>
 
-        <p>Sou um estudante de ensino médio apaixonado por tecnologia e programação. Estou iniciando minha jornada no mundo da programação, aprendendo HTML, CSS, e JavaScript. Explore meus projetos!</p>
-        <p>Minhas habilidades</p>
-        <div>
-            <p class="badge bg-secondary">HTML</p>
-            <p class="badge bg-secondary">CSS</p>
-            <p class="badge bg-secondary">Scratch</p>
-        </div>
-    </header>
-
-    <main class="container mt-5">
-        <h2>Meus projetos</h2>
-        <div class="row">
-            <!-- Projeto 1 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Jogo de Corrida com Listas e Funções</h5>
-                        <p class="card-text">Projeto com uso de listas, funções e repetições para criar um jogo de corrida no p5.js.</p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Projeto 2 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Arte Interativa com P5.js (1)</h5>
-                        <p class="card-text">Este projeto utiliza lógica de programação para criar arte interativa no p5.js.</p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Projeto 3 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Arte Interativa com P5.js (2)</h5>
-                        <p class="card-text">Mais um exemplo de arte interativa com p5.js, usando lógica e criatividade.</p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <!-- Modal 1 -->
-    <div class="modal fade" id="modal1" tabindex="-1">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Jogo de Corrida com Listas e Funções</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-                </div>
-                <div class="modal-body">
-                    <iframe src="https://editor.p5js.org/0000111844114xsp/full/NvLNjMUGA" width="100%" height="500"></iframe>
-                </div>
-            </div>
-        </div>
+    <p>Sou um estudante de ensino médio apaixonado por tecnologia e programação. Estou iniciando minha jornada no mundo da programação, aprendendo HTML, CSS, e JavaScript. Explore meus projetos!</p>
+    <p>Minhas habilidades</p>
+    <div>
+      <span class="badge bg-secondary">HTML</span>
+      <span class="badge bg-secondary">CSS</span>
+      <span class="badge bg-secondary">JavaScript</span>
+      <span class="badge bg-secondary">Scratch</span>
     </div>
 
-    <!-- Modal 2 -->
-    <div class="modal fade" id="modal2" tabindex="-1">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Arte Interativa com P5.js (1)</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-                </div>
-                <div class="modal-body">
-                    <iframe src="https://editor.p5js.org/0000111844114xsp/full/YMU-NOJFq" width="100%" height="500"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Imagem garoto 3D -->
+    <img src="https://img.icons8.com/3d-fluency/240/boy.png" alt="Garoto 3D" style="max-height: 150px;" class="my-3"/>
 
-    <!-- Modal 3 -->
-    <div class="modal fade" id="modal3" tabindex="-1">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Arte Interativa com P5.js (2)</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-                </div>
-                <div class="modal-body">
-                    <iframe src="https://editor.p5js.org/0000111844114xsp/full/5AGz0gTT4" width="100%" height="500"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Imagem PC 3D -->
+    <img src="https://img.icons8.com/3d-fluency/240/laptop.png" alt="PC 3D" style="max-height: 150px;" class="my-3"/>
+  </header>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <main class="container mt-5">
+    <h2>Meus projetos</h2>
+    <div class="row">
+
+      <!-- Projeto 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Listas, funções e repetição: criando um jogo de corrida (pt. 1)</h5>
+            <iframe src="https://editor.p5js.org/0000111844114xsp/full/NvLNjMUGA" style="width: 100%; height: 300px;" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Lógica de programação: criando arte interativa com P5.js</h5>
+            <iframe src="https://editor.p5js.org/0000111844114xsp/full/YMU-NOJFq" style="width: 100%; height: 300px;" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projeto 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Lógica de programação: criando arte interativa com P5.js</h5>
+            <iframe src="https://editor.p5js.org/0000111844114xsp/full/5AGz0gTT4" style="width: 100%; height: 300px;" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
